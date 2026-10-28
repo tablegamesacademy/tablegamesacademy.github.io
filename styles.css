@@ -1,5 +1,6 @@
 body{
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #fbf1c7;
 }
 *{
@@ -93,4 +94,35 @@ tr td:first-child {
 }
 table {
     margin: 0 auto;
+}
+#center{
+    width: 100%;
+    float: left;
+}
+.navbar a:hover{
+    color: #d79921;
+}
+.navbar {
+    width: 100%;
+    overflow: auto;
+}
+.navbar a {
+    width: calc(33.3333% - 24px);
+    float: left;
+    padding: 12px;
+    text-align: center;
+    font-size: 24px !important;
+    color: #b57614;
+    font-family: Verdana;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.navbar a span{
+    cursor: pointer;
+}
+.navbar ruby{
+    ruby-position: under;
+}
+.navbar rt{
+    font-size: 10px !important;
 }
