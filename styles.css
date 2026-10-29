@@ -84,6 +84,9 @@ tr td:first-child {
 .hit{
     background-color: #cc241d;
 }
+.zappit{
+    background-color: #b16286;
+}
 .double{
     background-color: #458588;
 }
