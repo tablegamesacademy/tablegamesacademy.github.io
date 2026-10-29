@@ -42,7 +42,8 @@ h3{
     border: 2px solid black;
     border-radius: 10px;
     margin: 0 10px 10px 0;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 40%;
 }
 .paytables {
